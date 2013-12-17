@@ -1,0 +1,22 @@
+{
+  "name": "coading-knock",
+  "version": "0.0.0",
+  "description": "coading-knock =============",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazomikan/coading-knock.git"
+  },
+  "author": "nazomikan",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/nazomikan/coading-knock/issues"
+  },
+  "dependencies": {
+    "node-static": "~0.7.2"
+  }
+}
