@@ -1,4 +1,4 @@
-coading-knock
+coding-knock
 =============
 
-coading knock (resource is wp theme *gpl)
+coding knock (resource is wp theme *gpl)
