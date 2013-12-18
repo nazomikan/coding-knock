@@ -11,11 +11,13 @@ html,body{
 }
 
 .container{
-    width: 980px;
+    width: 768px;
+    padding-bottom: 180px;
     margin: 0 auto;
 }
 
 .sec-header{
+    margin-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -42,10 +44,10 @@ html,body{
     color: #333333;
 }
 
-/* = mod-coading
+/* = mod-coding
 --------------------------*/
-.mod-coading{
-    margin-top: 30px;
+.mod-coding{
+    margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #BEBEBE;
     border-radius: .5em;
@@ -53,18 +55,27 @@ html,body{
     position: relative;
 }
 
-.mod-coading .caption{
+.mod-coding .caption a{
     font-size: 1.1em;
+    text-decoration: none;
     color: #0769AD;
 }
 
-.mod-coading .summary{
+.mod-coding .summary{
     margin-top: 15px;
     font-size: .9em;
     color: #333333;
 }
 
-.mod-coading .span{
+.mod-coding .summary p{
+    line-height: 1.5em;
+}
+
+.mod-coding .summary p a{
+    color: #0769AD;
+}
+
+.mod-coding .span{
     position: absolute;
     top: 10px;
     right: 10px;
@@ -75,37 +86,62 @@ html,body{
     font-size: .6em;
 }
 
-
 /* = mod-whoami
 --------------------------*/
-.sec-whoami{
+.mod-whoami {
   padding: 30px;
+  zoom: 1;
 }
-.mod-whoami .icon,
-.mod-whoami .description{
-  display: inline-block;
+
+.mod-whoami:after {
+    content: "";
+    display: block;
+    clear: both;
 }
+
 .mod-whoami .icon{
+  float: left;
+  position: relative;
   text-align: center;
   overflow: hidden;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
+  width: 114px; /* total: 120 */
+  height: 114px; /* total: 120 */
   background-color: #FFFFFF;
   border-radius: 75px;
+  border: 3px solid #555;
 }
+
 .mod-whoami .icon img{
-  margin-left: -33px;
-  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -50px;
 }
 
 .mod-whoami .description{
-  vertical-align: top;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 20px;
+  height: 100px;
+  float: left;
 }
 
-.mod-whoami .description p{
-  padding-top: 5px;
-  padding-bottom: 5px;
+.mod-whoami .description .account{
+  margin: 10px auto 5px auto;
+}
+
+.mod-whoami .description .account span{
+  display: inline-block;
+  padding: 10px 5px auto auto;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  font-size: 1.55em;
+  color: #888888;
+}
+
+.mod-whoami .description .repos{
+  padding: 10px;
+  font-size: .85em;
+  background-color: #222222;
+  border: 1px solid #111111;
+  border-radius: .3em;
 }
