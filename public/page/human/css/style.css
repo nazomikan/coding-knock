@@ -1,0 +1,40 @@
+html,body{
+     height:100%;
+     background-color: #eaeaea;
+}
+
+.sec-wrapper{
+    width: 100%;
+    position: relative;
+    height:auto !important; /*IE6対策*/
+    height: 100%; /*IE6対策*/
+    min-height: 100%;
+}
+
+.sec-container{
+    padding-bottom: 175px;
+    margin: 0 auto;
+}
+
+.sec-header{
+    height: 298px;
+    background-color: #33363b;
+}
+
+.sec-main{
+    width: 1220px;
+    height: 1000px;/*mock*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+    background-color: #f0f0f0;
+}
+
+.sec-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 170px;
+    background-color: #33363b;
+    color: #FFFFFF;
+}
