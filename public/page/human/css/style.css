@@ -186,10 +186,39 @@ html,body{
 }
 
 .mod-article .articleInner{
-    padding: 20px 30px;
+    padding: 15px 30px;
     height: 1500px;
 }
 
 .mod-article .articleInner .postThumbLarge{
     width: 100%;
+}
+
+.mod-article .articleInner .articleList{
+    list-style: none;
+    margin-bottom: 13px;
+    zoom: 1;
+}
+
+.mod-article .articleInner .articleList:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mod-article .articleInner .articleList li{
+    width: 19px;
+    height: 2px;
+    margin-right: 2px;
+    background-color: #dddddd;
+    overflow: hidden;
+    float: left;
+}
+
+.mod-article .articleInner .articleList li.current{
+    background-color: #3b8dbd;
+}
+.mod-article .articleInner .articleList li a{
+    text-indent: -999px;
+    display: block;
 }
