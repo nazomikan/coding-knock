@@ -35,6 +35,7 @@ html,body{
 
 .sec-columnWrapper{
     box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    margin-bottom: 60px;
     zoom: 1;
 }
 
@@ -221,4 +222,86 @@ html,body{
 .mod-article .articleInner .articleList li a{
     text-indent: -999px;
     display: block;
+}
+
+
+
+.mod-subLinks{
+    background-color: #FFFFFF;
+}
+
+.mod-subLinks .recentActivities{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.mod-subLinks .recentActivities .activitiesWrapper{
+    max-width: 1380px;
+    padding: 30px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper .recentPosts{
+    width: 31.2%;
+    margin-right: 3.2%;
+    float: left;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper .recentComments{
+    width: 31.2%;
+    margin-right: 3.2%;
+    float: left;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper .highLights{
+    width: 31.2%;
+    float: left;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper .caption{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 1.15em;
+    font-weight: lighter;
+    color: #444;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper .record{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.mod-subLinks .recentActivities .activitiesWrapper .record a{
+    color: #666;
+    font-size: 1.15em;
+    text-decoration: none;
+}
+
+.mod-subLinks .nav{
+
+}
+
+.mod-subLinks .nav ul{
+    text-align: center;
+    padding: 12px;
+}
+
+.mod-subLinks .nav ul li{
+    display: inline-block;
+}
+
+.mod-subLinks .nav ul li a{
+    font-size: 1.25em;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #999;
 }
